@@ -1,5 +1,5 @@
 """
-공공데이터포털 목록개방현황 CSV → DCAT RDF 변환기
+공공데이터포털 목록개방현황 CSV → RDF 변환기
 
 CSV 원본: 공공데이터활용지원센터_공공데이터포털 목록개방현황
 출력: JSON-LD, Turtle
@@ -10,20 +10,15 @@ import json
 import re
 import sys
 from pathlib import Path
-from rdflib import Graph, Namespace, Literal, URIRef, BNode
+from rdflib import Graph, Literal, URIRef, BNode
 from rdflib.namespace import RDF, RDFS, XSD, DCTERMS, FOAF, SKOS
 
-
-# --- Namespaces ---
-
-DCAT = Namespace("http://www.w3.org/ns/dcat#")
-VCARD = Namespace("http://www.w3.org/2006/vcard/ns#")
-SCHEMA = Namespace("http://schema.org/")
-ADMS = Namespace("http://www.w3.org/ns/adms#")
-DQV = Namespace("http://www.w3.org/ns/dqv#")
-AIRD = Namespace("http://datahub.kr/ns/aird#")
-
-DATA_GO_KR = "https://data.go.kr"
+# 네임스페이스는 shared/namespaces.py를 통해 사용 (CLAUDE.md 규칙)
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent.parent))
+from shared.namespaces import (
+    AIRD, DCAT, VCARD, SCHEMA, ADMS, DQV, DATA_GO_KR,
+    bind_common_prefixes,
+)
 
 # --- 정규화 테이블 ---
 
@@ -58,6 +53,54 @@ MEDIA_TYPE_MAP = {
     "멀티미디어": "multimedia",
     "기타": "etc",
 }
+
+# v2.0: 확장자 기반 IANA 미디어 타입 매핑
+IANA_MEDIA_TYPE_MAP = {
+    "csv": "text/csv",
+    "json": "application/json",
+    "xml": "application/xml",
+    "xlsx": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "xls": "application/vnd.ms-excel",
+    "pdf": "application/pdf",
+    "hwp": "application/x-hwp",
+    "hwpx": "application/hwp+zip",
+    "zip": "application/zip",
+    "html": "text/html",
+    "txt": "text/plain",
+    "doc": "application/msword",
+    "docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "ppt": "application/vnd.ms-powerpoint",
+    "pptx": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "jpg": "image/jpeg",
+    "jpeg": "image/jpeg",
+    "png": "image/png",
+    "gif": "image/gif",
+    "tif": "image/tiff",
+    "tiff": "image/tiff",
+    "shp": "application/x-shapefile",
+    "geojson": "application/geo+json",
+    "rdf": "application/rdf+xml",
+}
+
+# v2.0: IANA 대분류 (확장자 기반 mediaType과 매체유형 컬럼 교차 검증용)
+MEDIA_CATEGORY_MAP = {
+    "text": "텍스트",
+    "application": "텍스트",
+    "image": "이미지",
+    "video": "동영상",
+    "audio": "소리",
+}
+
+# v2.0: License 리소스 제목
+LICENSE_TITLE_MAP = {
+    "0": "공공누리 제0유형",
+    "1": "공공누리 제1유형",
+    "2": "공공누리 제2유형",
+    "3": "공공누리 제3유형",
+    "4": "공공누리 제4유형",
+}
+
+KOGL_OFFICIAL_BASE = "https://www.kogl.or.kr/info/license.do#type-"
 
 
 # --- 전처리 함수 ---
@@ -139,17 +182,7 @@ def to_slug(text):
 def build_graph(csv_path, limit=None):
     """CSV를 읽어 RDF 그래프를 구축한다."""
     g = Graph()
-
-    # Bind prefixes
-    g.bind("dcat", DCAT)
-    g.bind("dct", DCTERMS)
-    g.bind("vcard", VCARD)
-    g.bind("foaf", FOAF)
-    g.bind("schema", SCHEMA)
-    g.bind("adms", ADMS)
-    g.bind("dqv", DQV)
-    g.bind("skos", SKOS)
-    g.bind("aird", AIRD)
+    bind_common_prefixes(g)
 
     # Catalog
     catalog_uri = URIRef(f"{DATA_GO_KR}/catalog")
@@ -158,6 +191,7 @@ def build_graph(csv_path, limit=None):
     g.add((catalog_uri, DCTERMS.description,
            Literal("대한민국 공공데이터 포털 데이터 카탈로그", lang="ko")))
 
+    # v2.0: Catalog → themeTaxonomy 연결
     # Theme ConceptScheme
     theme_scheme = URIRef(f"{DATA_GO_KR}/theme")
     g.add((theme_scheme, RDF.type, SKOS.ConceptScheme))
@@ -167,6 +201,13 @@ def build_graph(csv_path, limit=None):
     type_scheme = URIRef(f"{DATA_GO_KR}/type")
     g.add((type_scheme, RDF.type, SKOS.ConceptScheme))
     g.add((type_scheme, DCTERMS.title, Literal("공공데이터 목록유형", lang="ko")))
+
+    # v2.0: Catalog에 themeTaxonomy 연결
+    g.add((catalog_uri, DCAT.themeTaxonomy, theme_scheme))
+    g.add((catalog_uri, DCAT.themeTaxonomy, type_scheme))
+
+    # License 중복 방지용 캐시
+    licenses_created = set()
 
     # 중복 방지용 캐시
     orgs_created = set()
@@ -239,11 +280,14 @@ def build_graph(csv_path, limit=None):
                 g.add((dataset_uri, AIRD.isNationalCoreDataset,
                        Literal(national == "Y", datatype=XSD.boolean)))
 
-            # 표준데이터여부
+            # 표준데이터여부 (v2.0: dct:conformsTo, Y인 경우만 생성)
             standard = clean_null(row.get("표준데이터여부"))
-            if standard:
-                g.add((dataset_uri, AIRD.isStandardDataset,
-                       Literal(standard == "Y", datatype=XSD.boolean)))
+            if standard == "Y":
+                std_uri = URIRef(f"{DATA_GO_KR}/standard/dataset")
+                g.add((dataset_uri, DCTERMS.conformsTo, std_uri))
+                g.add((std_uri, RDF.type, DCTERMS.Standard))
+                g.add((std_uri, DCTERMS.title,
+                       Literal("공공데이터 표준", lang="ko")))
 
             # 키워드 (쉼표 분리 → 다중 트리플)
             keywords = clean_null(row.get("키워드"))
@@ -278,7 +322,9 @@ def build_graph(csv_path, limit=None):
                 major_uri = URIRef(f"{DATA_GO_KR}/theme/{major_slug}")
                 minor_uri = URIRef(f"{DATA_GO_KR}/theme/{minor_slug}")
 
+                # v2.0: 대분류 + 소분류 모두 dcat:theme으로 연결
                 g.add((dataset_uri, DCAT.theme, minor_uri))
+                g.add((dataset_uri, DCAT.theme, major_uri))
 
                 if minor_slug not in themes_created:
                     g.add((minor_uri, RDF.type, SKOS.Concept))
@@ -322,7 +368,7 @@ def build_graph(csv_path, limit=None):
             if dept_name or dept_phone:
                 cp = BNode()
                 g.add((dataset_uri, DCAT.contactPoint, cp))
-                g.add((cp, RDF.type, VCARD.Organization))
+                g.add((cp, RDF.type, VCARD.Kind))
                 if dept_name:
                     g.add((cp, VCARD.fn, Literal(dept_name, lang="ko")))
                 if dept_phone:
@@ -383,16 +429,25 @@ def build_graph(csv_path, limit=None):
                 g.add((dist_uri, DCTERMS.title,
                        Literal(file_title, lang="ko")))
 
-            # 확장자 (정규화)
+            # 확장자 (정규화) + v2.0 IANA 미디어 타입
             fmt = normalize_format(clean_null(row.get("확장자(데이터포맷)")))
             if fmt:
                 g.add((dist_uri, DCTERMS.format, Literal(fmt)))
+                # v2.0: 확장자 기반 IANA 미디어 타입 매핑
+                iana_type = IANA_MEDIA_TYPE_MAP.get(fmt)
+                if iana_type:
+                    g.add((dist_uri, DCAT.mediaType, Literal(iana_type)))
 
-            # 매체유형
+            # v2.0: 매체유형 컬럼은 교차 검증용 (트리플 미생성)
             media = clean_null(row.get("매체유형"))
-            if media and media in MEDIA_TYPE_MAP:
-                g.add((dist_uri, DCAT.mediaType,
-                       Literal(MEDIA_TYPE_MAP[media])))
+            if media and fmt and media in MEDIA_TYPE_MAP:
+                iana_type = IANA_MEDIA_TYPE_MAP.get(fmt)
+                if iana_type:
+                    iana_category = iana_type.split("/")[0]
+                    expected_media = MEDIA_CATEGORY_MAP.get(iana_category)
+                    if expected_media and expected_media != media:
+                        print(f"  [검증] {dataset_id}: 매체유형 '{media}' ≠ "
+                              f"확장자 '{fmt}' 기반 분류 '{expected_media}'")
 
             # 전체행
             row_count = clean_null(row.get("전체행"))
@@ -400,11 +455,24 @@ def build_graph(csv_path, limit=None):
                 g.add((dist_uri, AIRD.rowCount,
                        Literal(int(row_count), datatype=XSD.integer)))
 
-            # 이용허락범위 (B-6)
+            # 이용허락범위 (B-6, v2.0 보강)
             license_raw = clean_null(row.get("이용허락범위"))
             license_uri, has_third_party = parse_license(license_raw)
             if license_uri:
-                g.add((dist_uri, DCTERMS.license, URIRef(license_uri)))
+                lic_ref = URIRef(license_uri)
+                g.add((dist_uri, DCTERMS.license, lic_ref))
+                # v2.0: License 리소스 상세 정보
+                if license_uri not in licenses_created:
+                    g.add((lic_ref, RDF.type, DCTERMS.LicenseDocument))
+                    # license_uri에서 type 번호 추출
+                    lic_type_num = license_uri.rsplit("-", 1)[-1]
+                    lic_title = LICENSE_TITLE_MAP.get(lic_type_num)
+                    if lic_title:
+                        g.add((lic_ref, DCTERMS.title,
+                               Literal(lic_title, lang="ko")))
+                        g.add((lic_ref, RDFS.seeAlso,
+                               URIRef(f"{KOGL_OFFICIAL_BASE}{lic_type_num}")))
+                    licenses_created.add(license_uri)
             if has_third_party:
                 g.add((dist_uri, AIRD.hasThirdPartyRights,
                        Literal(True, datatype=XSD.boolean)))
@@ -513,12 +581,21 @@ def main():
 
     print(f"입력: {csv_path}")
 
+    examples_dir = project_root / "examples"
+
     # 샘플 출력 (처음 10건, Turtle + JSON-LD)
     print("샘플(10건) 변환 중...")
     sample_g = build_graph(csv_path, limit=10)
     print(f"샘플 트리플 수: {len(sample_g):,}")
-    export_graph(sample_g, project_root / "examples",
+    export_graph(sample_g, examples_dir,
                  base_name="sample_10", full=False)
+
+    # 샘플 출력 (처음 100건, Turtle + JSON-LD)
+    print("샘플(100건) 변환 중...")
+    sample100_g = build_graph(csv_path, limit=100)
+    print(f"샘플(100건) 트리플 수: {len(sample100_g):,}")
+    export_graph(sample100_g, examples_dir,
+                 base_name="sample_100", full=False)
 
     # 전체 변환 (N-Triples + JSON-LD)
     print("전체 변환 중...")

@@ -52,5 +52,6 @@ python src/converter.py 100
 
 ## 문서
 
-- [DCAT 매핑 명세](docs/dcat-mapping-spec.md) — 36개 컬럼 전체 매핑 규격
+- [어휘 매핑 명세](docs/vocabulary-mapping-spec.md) — 36개 컬럼 전체 매핑 규격
+- [매핑 테이블](docs/mapping-table.md) — 컬럼별 매핑 결과 요약
 - [데이터 정제 계획](docs/data-cleansing-plan.md) — 정제 항목 및 향후 과제
