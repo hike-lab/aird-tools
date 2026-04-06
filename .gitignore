@@ -1,0 +1,24 @@
+# Data (download from source)
+**/data/
+
+# Standard drafts (not public yet) — keep folder structure only
+spec/**
+!spec/
+!spec/*/
+!spec/**/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+
+# Claude Code
+.claude/
+CLAUDE.md
+**/CLAUDE.md
+
+# OS
+.DS_Store
+Thumbs.db

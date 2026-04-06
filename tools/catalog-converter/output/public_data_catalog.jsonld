@@ -1,0 +1,2704 @@
+[
+  {
+    "@id": "https://data.go.kr/org/4930000",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Organization"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "4930000"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "ko",
+        "@value": "전라남도 해남군"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000249/distribution",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://datahub.kr/ns/aird#accessMethod": [
+      {
+        "@id": "https://data.go.kr/accessMethod/기관자체에서-다운로드-제공데이터URL기재"
+      }
+    ],
+    "http://datahub.kr/ns/aird#rowCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 1
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "pdf"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://data.go.kr/license/kogl/type-4"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "법제처_법제업무편람_20250115"
+      }
+    ],
+    "http://schema.org/isAccessibleForFree": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "http://www.w3.org/ns/dcat#mediaType": [
+      {
+        "@value": "etc"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/org/1170000",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Organization"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "1170000"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "ko",
+        "@value": "법제처"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000249",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Dataset"
+    ],
+    "http://datahub.kr/ns/aird#isNationalCoreDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#isStandardDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#nextUpdateDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-09-22"
+      }
+    ],
+    "http://purl.org/dc/terms/accrualPeriodicity": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "ko",
+        "@value": "본 자료는 법령의 제정·개정·폐지 및 행정규칙 작성에 필요한 절차, 기준, 역할 분담 등의 내용을 체계적으로 정리한 편람입니다. 구체적으로 안건 접수, 담당 검토, 의견수렴, 법제심사, 확정·공포까지의 전 과정을 단계별로 안내합니다. 또한 각 단계별 심사항목과 관련 사례를 제시하여 실무자의 이해를 돕고 일관된 법제 운영을 지원합니다. 조직 내부에서 법적 안정성을 확보하고 효율적인 법령 관리를 추진하는 데 기초 자료로 활용됩니다. 아울러 권한 주체 간 협업 구조를 명확히 설명하여 법무·행정 부서의 실무 역량을 제고합니다."
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "15000249"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-08-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-07"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.go.kr/org/1170000"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:N0375cb5ae4f949028d3aa2eb7569b303"
+      }
+    ],
+    "http://purl.org/dc/terms/temporal": [
+      {
+        "@id": "_:N3eeef4e4206343c0b704e4fe3e6dbc1a"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "법제처_법제업무편람"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "https://data.go.kr/type/FILE"
+      }
+    ],
+    "http://schema.org/interactionStatistic": [
+      {
+        "@id": "_:N3bd6f57339344192bc0f3adf95af450a"
+      },
+      {
+        "@id": "_:N222a01f08e924650b7b6f21ad73ff273"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#contactPoint": [
+      {
+        "@id": "_:Ncacc682d85bb4beaa6c77ab588135ec9"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#distribution": [
+      {
+        "@id": "https://data.go.kr/dataset/15000249/distribution"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#keyword": [
+      {
+        "@language": "ko",
+        "@value": "입법절차"
+      },
+      {
+        "@language": "ko",
+        "@value": "법령심사"
+      },
+      {
+        "@language": "ko",
+        "@value": "국회심의"
+      },
+      {
+        "@language": "ko",
+        "@value": "내부지침"
+      },
+      {
+        "@language": "ko",
+        "@value": "적용사례"
+      },
+      {
+        "@language": "ko",
+        "@value": "심사기준"
+      },
+      {
+        "@language": "ko",
+        "@value": "행정절차"
+      },
+      {
+        "@language": "ko",
+        "@value": "절차안내"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://www.data.go.kr/data/15000249/fileData.do"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@id": "https://data.go.kr/theme/법제"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ncacc682d85bb4beaa6c77ab588135ec9",
+    "@type": [
+      "http://www.w3.org/2006/vcard/ns#Organization"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@language": "ko",
+        "@value": "국가법령정보센터"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+      {
+        "@id": "tel:0442006788"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0375cb5ae4f949028d3aa2eb7569b303",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "ko",
+        "@value": "대한민국"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3eeef4e4206343c0b704e4fe3e6dbc1a",
+    "@type": [
+      "http://purl.org/dc/terms/PeriodOfTime"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "ko",
+        "@value": "2024년"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3bd6f57339344192bc0f3adf95af450a",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/DownloadAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 1525
+      }
+    ]
+  },
+  {
+    "@id": "_:N222a01f08e924650b7b6f21ad73ff273",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/ViewAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 12407
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/theme/관광",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://data.go.kr/theme/문화관광"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://data.go.kr/theme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "ko",
+        "@value": "관광"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/org/6520000",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Organization"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "6520000"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "ko",
+        "@value": "제주특별자치도 서귀포시"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000592",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Dataset"
+    ],
+    "http://datahub.kr/ns/aird#isNationalCoreDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#isStandardDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#nextUpdateDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-04-18"
+      }
+    ],
+    "http://purl.org/dc/terms/accrualPeriodicity": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "ko",
+        "@value": "충청남도 서산시에서 제공하는 본 데이터는 관내 마을회관 및 경로당 시설의 위치와 운영 현황을 정리한 자료이다. 항목은 명칭, 읍면동, 리_통, 용도, 면적, 도로명주소, 경도, 위도, 연락처, 데이터기준일로 구성되며, 주민 복지 향상과 커뮤니티 공간 운영에 활용된다. 본 데이터는 고령층 복지 지원과 지역사회 연계 공간 현황을 파악하는 데 기초자료로 사용된다. 시설의 분포, 접근성, 이용 수요 분석을 통해 행정계획과 복지정책 수립에 도움이 되며, 재난 발생 시 대응 거점으로서의 기능 파악에도 활용된다. 또한 농촌 고령화 대응, 마을 공동체 회복, 생활SOC 확충 등 정책 설계에도 유용하다. 데이터는 정기적으로 갱신되며, 시민과 행정기관에 제공되는 공공정보이다."
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "15000592"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2013-12-12"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-20"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.go.kr/org/4530000"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "충청남도 서산시_마을회관및경로당"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "https://data.go.kr/type/FILE"
+      }
+    ],
+    "http://schema.org/interactionStatistic": [
+      {
+        "@id": "_:N794c85ac6132419da3c06924cd283547"
+      },
+      {
+        "@id": "_:N7c3577d345c64535b877a8c3dbadd7e5"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#contactPoint": [
+      {
+        "@id": "_:N14ba147df0e744e0a0712eafad017c22"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#distribution": [
+      {
+        "@id": "https://data.go.kr/dataset/15000592/distribution"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#keyword": [
+      {
+        "@language": "ko",
+        "@value": "마을회관"
+      },
+      {
+        "@language": "ko",
+        "@value": "경로당"
+      },
+      {
+        "@language": "ko",
+        "@value": "회관"
+      },
+      {
+        "@language": "ko",
+        "@value": "농촌정책"
+      },
+      {
+        "@language": "ko",
+        "@value": "커뮤니티시설"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://www.data.go.kr/data/15000592/fileData.do"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@id": "https://data.go.kr/theme/노인-청소년"
+      }
+    ]
+  },
+  {
+    "@id": "_:N14ba147df0e744e0a0712eafad017c22",
+    "@type": [
+      "http://www.w3.org/2006/vcard/ns#Organization"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@language": "ko",
+        "@value": "경로장애인과"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+      {
+        "@id": "tel:0416602058"
+      }
+    ]
+  },
+  {
+    "@id": "_:N794c85ac6132419da3c06924cd283547",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/DownloadAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 1724
+      }
+    ]
+  },
+  {
+    "@id": "_:N7c3577d345c64535b877a8c3dbadd7e5",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/ViewAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 5738
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000602",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Dataset"
+    ],
+    "http://datahub.kr/ns/aird#isNationalCoreDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#isStandardDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://purl.org/dc/terms/accrualPeriodicity": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/IRREG"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "ko",
+        "@value": "성남시의 시내버스 노선에 대한 데이터로 노선번호, 기점, 종점, 상행하행 운행시간, 배차, 운수사명의 항목을 제공합니다. ‘경기도 성남시_시내버스 노선대장 목록정보’ 데이터는 성남시에서 운행되는 시내버스의 노선 구조와 운영 현황을 체계적으로 정리한 자료입니다. 이 데이터에는 시민의 대중교통 이용에 필수적인 기본 정보가 포함되어 있습니다. 또한 노선별 정류장 위치, 운영 업체, 1일 운행 회차와 같은 세부적인 운행 정보도 제공하여 교통 흐름과 서비스 수준을 종합적으로 파악할 수 있습니다. 이러한 자료는 시내버스 노선 신설·개편, 교통 취약지역 관리, 배차 효율성 개선 등 행정적 의사결정에 중요한 근거가 되며, 시민들에게는 보다 편리하고 정확한 대중교통 이용 정보를 제공하는 데 큰 도움이 됩니다."
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "15000602"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-06-12"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-20"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.go.kr/org/3780000"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "경기도 성남시_시내버스 노선대장 목록정보"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "https://data.go.kr/type/FILE"
+      }
+    ],
+    "http://schema.org/interactionStatistic": [
+      {
+        "@id": "_:Nb197f14a65b84b308074c889899e2d58"
+      },
+      {
+        "@id": "_:N475ff4ee207c40c9bde7d3c098a3088e"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#contactPoint": [
+      {
+        "@id": "_:Na75699049a784c8d89494341b7d52006"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#distribution": [
+      {
+        "@id": "https://data.go.kr/dataset/15000602/distribution"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#keyword": [
+      {
+        "@language": "ko",
+        "@value": "노선번호"
+      },
+      {
+        "@language": "ko",
+        "@value": "기점"
+      },
+      {
+        "@language": "ko",
+        "@value": "종점"
+      },
+      {
+        "@language": "ko",
+        "@value": "노선정보"
+      },
+      {
+        "@language": "ko",
+        "@value": "운행현황"
+      },
+      {
+        "@language": "ko",
+        "@value": "노선목록"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://www.data.go.kr/data/15000602/fileData.do"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@id": "https://data.go.kr/theme/도로"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na75699049a784c8d89494341b7d52006",
+    "@type": [
+      "http://www.w3.org/2006/vcard/ns#Organization"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@language": "ko",
+        "@value": "정책기획과"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+      {
+        "@id": "tel:03115773100"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb197f14a65b84b308074c889899e2d58",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/DownloadAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 592
+      }
+    ]
+  },
+  {
+    "@id": "_:N475ff4ee207c40c9bde7d3c098a3088e",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/ViewAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 4522
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/theme/도로",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://data.go.kr/theme/교통물류"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://data.go.kr/theme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "ko",
+        "@value": "도로"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/theme/문화관광",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://data.go.kr/theme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "ko",
+        "@value": "문화관광"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://data.go.kr/theme"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000613",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Dataset"
+    ],
+    "http://datahub.kr/ns/aird#isNationalCoreDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#isStandardDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#nextUpdateDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-04-17"
+      }
+    ],
+    "http://purl.org/dc/terms/accrualPeriodicity": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "ko",
+        "@value": "이 데이터는 충청남도 서산시 관내에서 여객운송업을 운영하는 업체 정보를 정리한 공공자료이다. 항목은 업종, 업체명, 소재지, 대표자, 전화번호, 차량보유대수로 구성되며, 지역 운송서비스 현황 파악과 행정업무 지원을 목적으로 한다. 업종은 택시, 버스 등 운송 형태이며, 업체명은 등록된 상호이다. 소재지는 사업장 주소이며, 대표자는 업체의 운영 책임자이다. 전화번호는 민원 응대 및 문의용 연락처이고, 차량보유대수는 운행 가능한 차량 수를 의미한다. 이 자료는 대중교통 정책 수립, 교통자원 관리, 업체 현황 파악, 시민 정보 제공 등 다양한 분야에서 활용된다."
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "15000613"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2013-11-20"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-20"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.go.kr/org/4530000"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "충청남도 서산시_여객운수업체 정보"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "https://data.go.kr/type/FILE"
+      }
+    ],
+    "http://schema.org/interactionStatistic": [
+      {
+        "@id": "_:N0757e9e9f5bb4e25a48169cdffda9591"
+      },
+      {
+        "@id": "_:N35ffa3fb558542f9bed90593a1d36c87"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#contactPoint": [
+      {
+        "@id": "_:N46e2bf333b894bc5a52436bc3b8cd347"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#distribution": [
+      {
+        "@id": "https://data.go.kr/dataset/15000613/distribution"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#keyword": [
+      {
+        "@language": "ko",
+        "@value": "여객"
+      },
+      {
+        "@language": "ko",
+        "@value": "버스"
+      },
+      {
+        "@language": "ko",
+        "@value": "운수업"
+      },
+      {
+        "@language": "ko",
+        "@value": "운수업체현황"
+      },
+      {
+        "@language": "ko",
+        "@value": "교통행정"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://www.data.go.kr/data/15000613/fileData.do"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@id": "https://data.go.kr/theme/도로"
+      }
+    ]
+  },
+  {
+    "@id": "_:N46e2bf333b894bc5a52436bc3b8cd347",
+    "@type": [
+      "http://www.w3.org/2006/vcard/ns#Organization"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@language": "ko",
+        "@value": "스마트정보과"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+      {
+        "@id": "tel:0416603183"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0757e9e9f5bb4e25a48169cdffda9591",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/DownloadAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 1689
+      }
+    ]
+  },
+  {
+    "@id": "_:N35ffa3fb558542f9bed90593a1d36c87",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/ViewAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 4446
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000484/distribution",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://datahub.kr/ns/aird#accessMethod": [
+      {
+        "@id": "https://data.go.kr/accessMethod/공공데이터포털에서-다운로드-원문파일등록"
+      }
+    ],
+    "http://datahub.kr/ns/aird#rowCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 90
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "csv"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://data.go.kr/license/kogl/type-1"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "제주특별자치도 서귀포시_착한가격업소정보_20241025"
+      }
+    ],
+    "http://schema.org/isAccessibleForFree": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "http://www.w3.org/ns/dcat#mediaType": [
+      {
+        "@value": "text"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/org/5440000",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Organization"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "5440000"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "ko",
+        "@value": "경상남도 하동군"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000543/distribution",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://datahub.kr/ns/aird#accessMethod": [
+      {
+        "@id": "https://data.go.kr/accessMethod/공공데이터포털에서-다운로드-원문파일등록"
+      }
+    ],
+    "http://datahub.kr/ns/aird#rowCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 78
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "csv"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://data.go.kr/license/kogl/type-1"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "전라남도 해남군_숙박업소_20260205"
+      }
+    ],
+    "http://schema.org/isAccessibleForFree": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "http://www.w3.org/ns/dcat#mediaType": [
+      {
+        "@value": "text"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000613/distribution",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://datahub.kr/ns/aird#accessMethod": [
+      {
+        "@id": "https://data.go.kr/accessMethod/공공데이터포털에서-다운로드-원문파일등록"
+      }
+    ],
+    "http://datahub.kr/ns/aird#rowCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 15
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "csv"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://data.go.kr/license/kogl/type-1"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "충청남도 서산시_여객운수업체 정보_20250417"
+      }
+    ],
+    "http://schema.org/isAccessibleForFree": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "http://www.w3.org/ns/dcat#mediaType": [
+      {
+        "@value": "text"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/theme/사회복지",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://data.go.kr/theme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "ko",
+        "@value": "사회복지"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://data.go.kr/theme"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/theme/노인-청소년",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://data.go.kr/theme/사회복지"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://data.go.kr/theme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "ko",
+        "@value": "노인·청소년"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/accessMethod/기관자체에서-다운로드-제공데이터URL기재",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "ko",
+        "@value": "기관자체에서 다운로드(제공데이터URL기재)"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/org/4140000",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Organization"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "4140000"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "ko",
+        "@value": "경기도 연천군"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000593/distribution",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://datahub.kr/ns/aird#accessMethod": [
+      {
+        "@id": "https://data.go.kr/accessMethod/공공데이터포털에서-다운로드-원문파일등록"
+      }
+    ],
+    "http://datahub.kr/ns/aird#rowCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 43
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "csv"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://data.go.kr/license/kogl/type-1"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "경상남도 하동군_의료기관안내 DB_20230612"
+      }
+    ],
+    "http://schema.org/isAccessibleForFree": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "http://www.w3.org/ns/dcat#mediaType": [
+      {
+        "@value": "text"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000609",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Dataset"
+    ],
+    "http://datahub.kr/ns/aird#isNationalCoreDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#isStandardDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#nextUpdateDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-04-28"
+      }
+    ],
+    "http://purl.org/dc/terms/accrualPeriodicity": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "ko",
+        "@value": "경기도 연천군 공장등록현황을 개방하여 지역산업을 파악하여 제조할 수 있도록 해주는 서비스입니다.(번호, 단지명, 회사명,소재지,도로명주소, 전화번호,위경도, 팩스번호, 생산품,업종명,종업원수)"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "15000609"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2016-06-23"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.go.kr/org/4140000"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "경기도_연천군_공장등록 현황"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "https://data.go.kr/type/FILE"
+      }
+    ],
+    "http://schema.org/interactionStatistic": [
+      {
+        "@id": "_:N0bb4623d9c0e4a86b4b7161b591e255a"
+      },
+      {
+        "@id": "_:Neff7ce16f73c4f33a231506518c1645c"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#contactPoint": [
+      {
+        "@id": "_:Nac4ee061fb544b88a8e2c29fbf057ae6"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#distribution": [
+      {
+        "@id": "https://data.go.kr/dataset/15000609/distribution"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#keyword": [
+      {
+        "@language": "ko",
+        "@value": "공장"
+      },
+      {
+        "@language": "ko",
+        "@value": "지역산업"
+      },
+      {
+        "@language": "ko",
+        "@value": "제조"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://www.data.go.kr/data/15000609/fileData.do"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@id": "https://data.go.kr/theme/산업-중소기업일반"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#hasQualityAnnotation": [
+      {
+        "@id": "_:Nd6bb2c596eac4f8a85cb4fe76acafcd4"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nac4ee061fb544b88a8e2c29fbf057ae6",
+    "@type": [
+      "http://www.w3.org/2006/vcard/ns#Organization"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@language": "ko",
+        "@value": "미디어콘텐츠과"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+      {
+        "@id": "tel:0318392081"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0bb4623d9c0e4a86b4b7161b591e255a",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/DownloadAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 2777
+      }
+    ]
+  },
+  {
+    "@id": "_:Neff7ce16f73c4f33a231506518c1645c",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/ViewAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 6756
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd6bb2c596eac4f8a85cb4fe76acafcd4",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityAnnotation"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "ko",
+        "@value": "일부 업체의 도로명주소, 전화번호, 팩스번호가 존재하지 않습니다."
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000543",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Dataset"
+    ],
+    "http://datahub.kr/ns/aird#isNationalCoreDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#isStandardDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#nextUpdateDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2027-02-05"
+      }
+    ],
+    "http://purl.org/dc/terms/accrualPeriodicity": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "ko",
+        "@value": "전라남도 해남군 소재 숙박업소 현황에 관한 데이터입니다. 이 데이터에는 업종명, 숙박업소 명칭, 업태, 숙박업소 연락처, 숙박업소 소재지, 객실 수 항목에 대한 정보를 제공합니다. 26년 2월 기준 총 78개소의 숙박업소가 있습니다. 해남읍에 28개소로 가장 많이 있으며, 두륜산 및 대흥사가 있는 삼산면은 15개소, 송호해수욕장 등이 있는 송지면 13개소, 우수영관광지가 있는 문내면 10개소 등의 순입니다. 해남군 문화관광 홈페이지에서 숙박업소 관련 사진, 서비스 제공 여부 등 다양한 정보를 얻을 수 있습니다."
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "15000543"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-07-29"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-02-09"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.go.kr/org/4930000"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@language": "ko",
+        "@value": "공중위생관리법"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "전라남도 해남군_숙박업소"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "https://data.go.kr/type/FILE"
+      }
+    ],
+    "http://schema.org/interactionStatistic": [
+      {
+        "@id": "_:Nd01a0d169137499c863d4226b2f57836"
+      },
+      {
+        "@id": "_:N6653155a73714cd1892fecb2ceb84764"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "ko",
+        "@value": "공란은 정보없음"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#contactPoint": [
+      {
+        "@id": "_:N20dc6ac59329427fa8f61f5eaf7f1f80"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#distribution": [
+      {
+        "@id": "https://data.go.kr/dataset/15000543/distribution"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#keyword": [
+      {
+        "@language": "ko",
+        "@value": "공중위생"
+      },
+      {
+        "@language": "ko",
+        "@value": "숙박"
+      },
+      {
+        "@language": "ko",
+        "@value": "모텔"
+      },
+      {
+        "@language": "ko",
+        "@value": "여행"
+      },
+      {
+        "@language": "ko",
+        "@value": "호텔"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://www.data.go.kr/data/15000543/fileData.do"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@id": "https://data.go.kr/theme/관광"
+      }
+    ]
+  },
+  {
+    "@id": "_:N20dc6ac59329427fa8f61f5eaf7f1f80",
+    "@type": [
+      "http://www.w3.org/2006/vcard/ns#Organization"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@language": "ko",
+        "@value": "총무과"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+      {
+        "@id": "tel:0615305461"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd01a0d169137499c863d4226b2f57836",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/DownloadAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 975
+      }
+    ]
+  },
+  {
+    "@id": "_:N6653155a73714cd1892fecb2ceb84764",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/ViewAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 5831
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000592/distribution",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://datahub.kr/ns/aird#accessMethod": [
+      {
+        "@id": "https://data.go.kr/accessMethod/공공데이터포털에서-다운로드-원문파일등록"
+      }
+    ],
+    "http://datahub.kr/ns/aird#rowCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 425
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "csv"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://data.go.kr/license/kogl/type-1"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "충청남도 서산시_마을회관및경로당_20250418"
+      }
+    ],
+    "http://schema.org/isAccessibleForFree": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "http://www.w3.org/ns/dcat#mediaType": [
+      {
+        "@value": "text"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000545/distribution",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://datahub.kr/ns/aird#accessMethod": [
+      {
+        "@id": "https://data.go.kr/accessMethod/공공데이터포털에서-다운로드-원문파일등록"
+      }
+    ],
+    "http://datahub.kr/ns/aird#rowCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 443
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "csv"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://data.go.kr/license/kogl/type-1"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "경상남도 창원시_누비자 터미널_20250508"
+      }
+    ],
+    "http://schema.org/isAccessibleForFree": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "http://www.w3.org/ns/dcat#mediaType": [
+      {
+        "@value": "text"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/theme/교통물류",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://data.go.kr/theme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "ko",
+        "@value": "교통물류"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://data.go.kr/theme"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/org/5670000",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Organization"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "5670000"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "ko",
+        "@value": "경상남도 창원시"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000609/distribution",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://datahub.kr/ns/aird#accessMethod": [
+      {
+        "@id": "https://data.go.kr/accessMethod/공공데이터포털에서-다운로드-원문파일등록"
+      }
+    ],
+    "http://datahub.kr/ns/aird#rowCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 223
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "csv"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://data.go.kr/license/kogl/type-1"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "경기도_연천군_공장등록 현황_20250428"
+      }
+    ],
+    "http://schema.org/isAccessibleForFree": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "http://www.w3.org/ns/dcat#mediaType": [
+      {
+        "@value": "text"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/type",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "공공데이터 목록유형"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/theme/산업-중소기업일반",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://data.go.kr/theme/산업고용"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://data.go.kr/theme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "ko",
+        "@value": "산업·중소기업일반"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000444",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Dataset"
+    ],
+    "http://datahub.kr/ns/aird#isNationalCoreDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#isStandardDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#nextUpdateDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-05-30"
+      }
+    ],
+    "http://purl.org/dc/terms/accrualPeriodicity": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "ko",
+        "@value": "성남시 산후조리원현황은 출산 직후 산모와 신생아의 건강을 돌보기 위한 산후조리원이 지역 내에 얼마나 존재하며, 어떤 조건으로 운영되고 있는지를 파악한 자료입니다. 산후조리원현황은 구별, 동별, 산후조리원 이름, 산후조리원 주소, 전화번호, 산후조리원 허가일자, 임산부 정원(인원), 영유아 정원(인원), 임산부실 면적, 영유아실 면적, 모유수유실 면적, 간호사 인원, 간호조무사 인원 등의 정보를 현행화하여 제공하고 있습니다. 산후조리원은 「모자보건법」에 따라 일정 기준을 충족해야 등록이 가능합니다."
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "15000444"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-03-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-30"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.go.kr/org/3780000"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "경기도 성남시 산후조리원현황"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "https://data.go.kr/type/FILE"
+      }
+    ],
+    "http://schema.org/interactionStatistic": [
+      {
+        "@id": "_:Nca8a0c42522944c7aa0324454b8fc4a2"
+      },
+      {
+        "@id": "_:N95cf9d4346954d41a1a55e724c1a7fb2"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#contactPoint": [
+      {
+        "@id": "_:Nc46fd34817084a4db497d10936279159"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#distribution": [
+      {
+        "@id": "https://data.go.kr/dataset/15000444/distribution"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#keyword": [
+      {
+        "@language": "ko",
+        "@value": "산후회복"
+      },
+      {
+        "@language": "ko",
+        "@value": "출산"
+      },
+      {
+        "@language": "ko",
+        "@value": "임산부"
+      },
+      {
+        "@language": "ko",
+        "@value": "산후케어"
+      },
+      {
+        "@language": "ko",
+        "@value": "모자보건"
+      },
+      {
+        "@language": "ko",
+        "@value": "신생아케어"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://www.data.go.kr/data/15000444/fileData.do"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@id": "https://data.go.kr/theme/보건의료"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc46fd34817084a4db497d10936279159",
+    "@type": [
+      "http://www.w3.org/2006/vcard/ns#Organization"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@language": "ko",
+        "@value": "정책기획과"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+      {
+        "@id": "tel:03115773100"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nca8a0c42522944c7aa0324454b8fc4a2",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/DownloadAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 2720
+      }
+    ]
+  },
+  {
+    "@id": "_:N95cf9d4346954d41a1a55e724c1a7fb2",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/ViewAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 8469
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/theme/공공행정",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://data.go.kr/theme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "ko",
+        "@value": "공공행정"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://data.go.kr/theme"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000444/distribution",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://datahub.kr/ns/aird#accessMethod": [
+      {
+        "@id": "https://data.go.kr/accessMethod/공공데이터포털에서-다운로드-원문파일등록"
+      }
+    ],
+    "http://datahub.kr/ns/aird#rowCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 22
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "csv"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://data.go.kr/license/kogl/type-1"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "경기도 성남시 산후조리원현황_20250530"
+      }
+    ],
+    "http://schema.org/isAccessibleForFree": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "http://www.w3.org/ns/dcat#mediaType": [
+      {
+        "@value": "text"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000545",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Dataset"
+    ],
+    "http://datahub.kr/ns/aird#isNationalCoreDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#isStandardDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#nextUpdateDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-05-08"
+      }
+    ],
+    "http://purl.org/dc/terms/accrualPeriodicity": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "ko",
+        "@value": "창원시 시민공영자전거 누비자에 대하여 현재 설치된 터미널 현황을 터미널명, 위치(~구, ~동, 위도 및 경도), 주소, 등록일자 등을 제공합니다. 누비자 터미널 데이터는 공영자전거 누비자의 주요 거점(터미널) 위치, 정류장 코드, 설치된 자전거 수용용량, 운영 시간대, 관리 주체 및 상태 정보를 종합적으로 정리한 자료입니다. 해당 자료는 거점별 이용 빈도 및 배차 효율 분석, 자전거 재배치 전략 수립, 접근성 및 수요 기반 인프라 확충, 서비스 품질 개선, 민원 대응, 스마트 모빌리티 정책 기획, 도시 교통 연계 측면에서 핵심 지표로 활용됩니다. 특히 GIS 기반 시각화와 결합하여 터미널 간 이용 흐름 분석 및 공간적 보완 전략을 마련하는 데 효과적입니다."
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "15000545"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-12-18"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-18"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.go.kr/org/5670000"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "경상남도 창원시_누비자 터미널"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "https://data.go.kr/type/FILE"
+      }
+    ],
+    "http://schema.org/interactionStatistic": [
+      {
+        "@id": "_:N966eb181b5b84dd8b51ad8ae75b58367"
+      },
+      {
+        "@id": "_:Ndabf977fc699411a819c824f44c927a7"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#contactPoint": [
+      {
+        "@id": "_:Na0ec0b72a9a74a5081afe26b8098317d"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#distribution": [
+      {
+        "@id": "https://data.go.kr/dataset/15000545/distribution"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#keyword": [
+      {
+        "@language": "ko",
+        "@value": "누비자"
+      },
+      {
+        "@language": "ko",
+        "@value": "공영자전거"
+      },
+      {
+        "@language": "ko",
+        "@value": "자전거배치"
+      },
+      {
+        "@language": "ko",
+        "@value": "이용패턴분석"
+      },
+      {
+        "@language": "ko",
+        "@value": "서비스접근성"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://www.data.go.kr/data/15000545/fileData.do"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@id": "https://data.go.kr/theme/도로"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na0ec0b72a9a74a5081afe26b8098317d",
+    "@type": [
+      "http://www.w3.org/2006/vcard/ns#Organization"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@language": "ko",
+        "@value": "기후환경국 환경정책과"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+      {
+        "@id": "tel:0552253774"
+      }
+    ]
+  },
+  {
+    "@id": "_:N966eb181b5b84dd8b51ad8ae75b58367",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/DownloadAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 1618
+      }
+    ]
+  },
+  {
+    "@id": "_:Ndabf977fc699411a819c824f44c927a7",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/ViewAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 8209
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000484",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Dataset"
+    ],
+    "http://datahub.kr/ns/aird#isNationalCoreDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#isStandardDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#nextUpdateDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/accrualPeriodicity": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "ko",
+        "@value": "이 데이터는 서귀포시 내에서 물가 안정과 소비자 부담 완화를 위해 “착한가격업소”로 지정된 업소들의 정보(업종, 업소명, 주소, 연락처, 제공 품목, 위치좌표 등)를 모아놓은 자료입니다. 행정기관은 이 데이터를 활용해 저소득자나 관광객의 접근성이 좋은 착한가격업소 분포를 분석하고, 가격·품질 비교 지도를 통해 거리 기반 소비자 추천 서비스를 만들 수 있어요. 또한 업종별 업소 밀집 지역과 공백 지역을 시각화해 물가 안정 관련 정책을 집중 지원할 지역을 선정하거나, 소비자에게는 거주지 근처 또는 이동 동선 상에서 신뢰할 수 있는 가격 우수 업소를 쉽게 찾는 데 유용합니다. 품목 정보까지 포함되어 있어서 어떤 서비스나 음식 가격이 ‘착한가격업소’ 기준에 해당하는지 판단하는 데 도움이 되고, 외식업·이미용업·세탁업 등 서비스업 중심 업소들의 가격·품질 경쟁력에 대한 연구 자료로도 쓸만해요."
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "15000484"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-08-12"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-15"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.go.kr/org/6520000"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "제주특별자치도 서귀포시_착한가격업소정보"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "https://data.go.kr/type/FILE"
+      }
+    ],
+    "http://schema.org/interactionStatistic": [
+      {
+        "@id": "_:Nf158849afe2841a281f156361a0b6e40"
+      },
+      {
+        "@id": "_:N9c436da783f44bcfabe5aafb894a8a83"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "ko",
+        "@value": "연락처(D열), 휴무일(E열) 공란사유: 데이터 미집계, 개인정보 포함"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#contactPoint": [
+      {
+        "@id": "_:N4bf66642329042a498f0cac231a76a3a"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#distribution": [
+      {
+        "@id": "https://data.go.kr/dataset/15000484/distribution"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#keyword": [
+      {
+        "@language": "ko",
+        "@value": "물가안정"
+      },
+      {
+        "@language": "ko",
+        "@value": "서비스"
+      },
+      {
+        "@language": "ko",
+        "@value": "우수업소"
+      },
+      {
+        "@language": "ko",
+        "@value": "가격우수업소"
+      },
+      {
+        "@language": "ko",
+        "@value": "소비자편의"
+      },
+      {
+        "@language": "ko",
+        "@value": "외식업체"
+      },
+      {
+        "@language": "ko",
+        "@value": "가격비교"
+      },
+      {
+        "@language": "ko",
+        "@value": "착한가격"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://www.data.go.kr/data/15000484/fileData.do"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@id": "https://data.go.kr/theme/관광"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4bf66642329042a498f0cac231a76a3a",
+    "@type": [
+      "http://www.w3.org/2006/vcard/ns#Organization"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@language": "ko",
+        "@value": "서귀포시 디지털혁신과"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+      {
+        "@id": "tel:0647602283"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf158849afe2841a281f156361a0b6e40",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/DownloadAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 1616
+      }
+    ]
+  },
+  {
+    "@id": "_:N9c436da783f44bcfabe5aafb894a8a83",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/ViewAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 4792
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/theme/보건의료",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://data.go.kr/theme/보건의료"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://data.go.kr/theme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "ko",
+        "@value": "보건의료"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/org/4530000",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Organization"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "4530000"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "ko",
+        "@value": "충청남도 서산시"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/org/3780000",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Organization"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "3780000"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "ko",
+        "@value": "경기도 성남시"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/theme",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "공공데이터 분류체계"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/theme/산업고용",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://data.go.kr/theme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "ko",
+        "@value": "산업고용"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://data.go.kr/theme"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/type/FILE",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://data.go.kr/type"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "ko",
+        "@value": "FILE"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/catalog",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "ko",
+        "@value": "대한민국 공공데이터 포털 데이터 카탈로그"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "공공데이터포털"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#dataset": [
+      {
+        "@id": "https://data.go.kr/dataset/15000249"
+      },
+      {
+        "@id": "https://data.go.kr/dataset/15000444"
+      },
+      {
+        "@id": "https://data.go.kr/dataset/15000484"
+      },
+      {
+        "@id": "https://data.go.kr/dataset/15000543"
+      },
+      {
+        "@id": "https://data.go.kr/dataset/15000545"
+      },
+      {
+        "@id": "https://data.go.kr/dataset/15000592"
+      },
+      {
+        "@id": "https://data.go.kr/dataset/15000593"
+      },
+      {
+        "@id": "https://data.go.kr/dataset/15000602"
+      },
+      {
+        "@id": "https://data.go.kr/dataset/15000609"
+      },
+      {
+        "@id": "https://data.go.kr/dataset/15000613"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/theme/법제",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://data.go.kr/theme/공공행정"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://data.go.kr/theme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "ko",
+        "@value": "법제"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000602/distribution",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://datahub.kr/ns/aird#accessMethod": [
+      {
+        "@id": "https://data.go.kr/accessMethod/기관자체에서-다운로드-제공데이터URL기재"
+      }
+    ],
+    "http://datahub.kr/ns/aird#rowCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 59
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "xls"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://data.go.kr/license/kogl/type-1"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "경기도 성남시_시내버스 노선대장 목록정보_20200805"
+      }
+    ],
+    "http://schema.org/isAccessibleForFree": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "http://www.w3.org/ns/dcat#mediaType": [
+      {
+        "@value": "text"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/accessMethod/공공데이터포털에서-다운로드-원문파일등록",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "ko",
+        "@value": "공공데이터포털에서 다운로드(원문파일등록)"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.go.kr/dataset/15000593",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Dataset"
+    ],
+    "http://datahub.kr/ns/aird#isNationalCoreDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#isStandardDataset": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://datahub.kr/ns/aird#nextUpdateDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-06-15"
+      }
+    ],
+    "http://purl.org/dc/terms/accrualPeriodicity": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "ko",
+        "@value": "하동군 관내 의료기관 현황 (연번, 명칭, 도로명주소, 전화번호, 진료시간 등)에 대한 정보 데이터를 제공하고 있습니다."
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "15000593"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-07-23"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-06-12"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.go.kr/org/5440000"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "ko",
+        "@value": "경상남도 하동군_의료기관안내 DB"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "https://data.go.kr/type/FILE"
+      }
+    ],
+    "http://schema.org/interactionStatistic": [
+      {
+        "@id": "_:N5cc1f9769ee04c0cbadc415c8bd5ed11"
+      },
+      {
+        "@id": "_:Nc6f9cc81c7c2480ea57920c561883644"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#contactPoint": [
+      {
+        "@id": "_:N26128e36a44b4f9ea7a1a97d226e441a"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#distribution": [
+      {
+        "@id": "https://data.go.kr/dataset/15000593/distribution"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#keyword": [
+      {
+        "@language": "ko",
+        "@value": "병원"
+      },
+      {
+        "@language": "ko",
+        "@value": "의원"
+      },
+      {
+        "@language": "ko",
+        "@value": "한의원"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://www.data.go.kr/data/15000593/fileData.do"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@id": "https://data.go.kr/theme/보건의료"
+      }
+    ]
+  },
+  {
+    "@id": "_:N26128e36a44b4f9ea7a1a97d226e441a",
+    "@type": [
+      "http://www.w3.org/2006/vcard/ns#Organization"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@language": "ko",
+        "@value": "경상남도 하동군 보건소 보건정책과"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+      {
+        "@id": "tel:0558806916"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5cc1f9769ee04c0cbadc415c8bd5ed11",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/DownloadAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 848
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc6f9cc81c7c2480ea57920c561883644",
+    "@type": [
+      "http://schema.org/InteractionCounter"
+    ],
+    "http://schema.org/interactionType": [
+      {
+        "@id": "http://schema.org/ViewAction"
+      }
+    ],
+    "http://schema.org/userInteractionCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 3652
+      }
+    ]
+  }
+]

@@ -1,0 +1,530 @@
+@prefix aird: <http://datahub.kr/ns/aird#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.go.kr/catalog> a dcat:Catalog ;
+    dct:description "대한민국 공공데이터 포털 데이터 카탈로그"@ko ;
+    dct:title "공공데이터포털"@ko ;
+    dcat:dataset <https://data.go.kr/dataset/15000249>,
+        <https://data.go.kr/dataset/15000444>,
+        <https://data.go.kr/dataset/15000484>,
+        <https://data.go.kr/dataset/15000543>,
+        <https://data.go.kr/dataset/15000545>,
+        <https://data.go.kr/dataset/15000592>,
+        <https://data.go.kr/dataset/15000593>,
+        <https://data.go.kr/dataset/15000602>,
+        <https://data.go.kr/dataset/15000609>,
+        <https://data.go.kr/dataset/15000613> .
+
+<https://data.go.kr/dataset/15000249> a dcat:Dataset ;
+    aird:isNationalCoreDataset false ;
+    aird:isStandardDataset false ;
+    aird:nextUpdateDate "2026-09-22"^^xsd:date ;
+    dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+    dct:description "본 자료는 법령의 제정·개정·폐지 및 행정규칙 작성에 필요한 절차, 기준, 역할 분담 등의 내용을 체계적으로 정리한 편람입니다. 구체적으로 안건 접수, 담당 검토, 의견수렴, 법제심사, 확정·공포까지의 전 과정을 단계별로 안내합니다. 또한 각 단계별 심사항목과 관련 사례를 제시하여 실무자의 이해를 돕고 일관된 법제 운영을 지원합니다. 조직 내부에서 법적 안정성을 확보하고 효율적인 법령 관리를 추진하는 데 기초 자료로 활용됩니다. 아울러 권한 주체 간 협업 구조를 명확히 설명하여 법무·행정 부서의 실무 역량을 제고합니다."@ko ;
+    dct:identifier "15000249" ;
+    dct:issued "2018-08-25"^^xsd:date ;
+    dct:modified "2025-11-07"^^xsd:date ;
+    dct:publisher <https://data.go.kr/org/1170000> ;
+    dct:spatial [ a dct:Location ;
+            rdfs:label "대한민국"@ko ] ;
+    dct:temporal [ a dct:PeriodOfTime ;
+            rdfs:label "2024년"@ko ] ;
+    dct:title "법제처_법제업무편람"@ko ;
+    dct:type <https://data.go.kr/type/FILE> ;
+    schema1:interactionStatistic [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:ViewAction ;
+            schema1:userInteractionCount 12407 ],
+        [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:DownloadAction ;
+            schema1:userInteractionCount 1525 ] ;
+    dcat:contactPoint [ a vcard:Organization ;
+            vcard:fn "국가법령정보센터"@ko ;
+            vcard:hasTelephone <tel:0442006788> ] ;
+    dcat:distribution <https://data.go.kr/dataset/15000249/distribution> ;
+    dcat:keyword "국회심의"@ko,
+        "내부지침"@ko,
+        "법령심사"@ko,
+        "심사기준"@ko,
+        "입법절차"@ko,
+        "적용사례"@ko,
+        "절차안내"@ko,
+        "행정절차"@ko ;
+    dcat:landingPage <https://www.data.go.kr/data/15000249/fileData.do> ;
+    dcat:theme <https://data.go.kr/theme/법제> .
+
+<https://data.go.kr/dataset/15000249/distribution> a dcat:Distribution ;
+    aird:accessMethod <https://data.go.kr/accessMethod/기관자체에서-다운로드-제공데이터URL기재> ;
+    aird:rowCount 1 ;
+    dct:format "pdf" ;
+    dct:license <https://data.go.kr/license/kogl/type-4> ;
+    dct:title "법제처_법제업무편람_20250115"@ko ;
+    schema1:isAccessibleForFree true ;
+    dcat:mediaType "etc" .
+
+<https://data.go.kr/dataset/15000444> a dcat:Dataset ;
+    aird:isNationalCoreDataset false ;
+    aird:isStandardDataset false ;
+    aird:nextUpdateDate "2026-05-30"^^xsd:date ;
+    dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+    dct:description "성남시 산후조리원현황은 출산 직후 산모와 신생아의 건강을 돌보기 위한 산후조리원이 지역 내에 얼마나 존재하며, 어떤 조건으로 운영되고 있는지를 파악한 자료입니다. 산후조리원현황은 구별, 동별, 산후조리원 이름, 산후조리원 주소, 전화번호, 산후조리원 허가일자, 임산부 정원(인원), 영유아 정원(인원), 임산부실 면적, 영유아실 면적, 모유수유실 면적, 간호사 인원, 간호조무사 인원 등의 정보를 현행화하여 제공하고 있습니다. 산후조리원은 「모자보건법」에 따라 일정 기준을 충족해야 등록이 가능합니다."@ko ;
+    dct:identifier "15000444" ;
+    dct:issued "2018-03-19"^^xsd:date ;
+    dct:modified "2025-05-30"^^xsd:date ;
+    dct:publisher <https://data.go.kr/org/3780000> ;
+    dct:title "경기도 성남시 산후조리원현황"@ko ;
+    dct:type <https://data.go.kr/type/FILE> ;
+    schema1:interactionStatistic [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:ViewAction ;
+            schema1:userInteractionCount 8469 ],
+        [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:DownloadAction ;
+            schema1:userInteractionCount 2720 ] ;
+    dcat:contactPoint [ a vcard:Organization ;
+            vcard:fn "정책기획과"@ko ;
+            vcard:hasTelephone <tel:03115773100> ] ;
+    dcat:distribution <https://data.go.kr/dataset/15000444/distribution> ;
+    dcat:keyword "모자보건"@ko,
+        "산후케어"@ko,
+        "산후회복"@ko,
+        "신생아케어"@ko,
+        "임산부"@ko,
+        "출산"@ko ;
+    dcat:landingPage <https://www.data.go.kr/data/15000444/fileData.do> ;
+    dcat:theme <https://data.go.kr/theme/보건의료> .
+
+<https://data.go.kr/dataset/15000444/distribution> a dcat:Distribution ;
+    aird:accessMethod <https://data.go.kr/accessMethod/공공데이터포털에서-다운로드-원문파일등록> ;
+    aird:rowCount 22 ;
+    dct:format "csv" ;
+    dct:license <https://data.go.kr/license/kogl/type-1> ;
+    dct:title "경기도 성남시 산후조리원현황_20250530"@ko ;
+    schema1:isAccessibleForFree true ;
+    dcat:mediaType "text" .
+
+<https://data.go.kr/dataset/15000484> a dcat:Dataset ;
+    aird:isNationalCoreDataset false ;
+    aird:isStandardDataset false ;
+    aird:nextUpdateDate "2025-11-21"^^xsd:date ;
+    dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+    dct:description "이 데이터는 서귀포시 내에서 물가 안정과 소비자 부담 완화를 위해 “착한가격업소”로 지정된 업소들의 정보(업종, 업소명, 주소, 연락처, 제공 품목, 위치좌표 등)를 모아놓은 자료입니다. 행정기관은 이 데이터를 활용해 저소득자나 관광객의 접근성이 좋은 착한가격업소 분포를 분석하고, 가격·품질 비교 지도를 통해 거리 기반 소비자 추천 서비스를 만들 수 있어요. 또한 업종별 업소 밀집 지역과 공백 지역을 시각화해 물가 안정 관련 정책을 집중 지원할 지역을 선정하거나, 소비자에게는 거주지 근처 또는 이동 동선 상에서 신뢰할 수 있는 가격 우수 업소를 쉽게 찾는 데 유용합니다. 품목 정보까지 포함되어 있어서 어떤 서비스나 음식 가격이 ‘착한가격업소’ 기준에 해당하는지 판단하는 데 도움이 되고, 외식업·이미용업·세탁업 등 서비스업 중심 업소들의 가격·품질 경쟁력에 대한 연구 자료로도 쓸만해요."@ko ;
+    dct:identifier "15000484" ;
+    dct:issued "2019-08-12"^^xsd:date ;
+    dct:modified "2025-09-15"^^xsd:date ;
+    dct:publisher <https://data.go.kr/org/6520000> ;
+    dct:title "제주특별자치도 서귀포시_착한가격업소정보"@ko ;
+    dct:type <https://data.go.kr/type/FILE> ;
+    schema1:interactionStatistic [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:ViewAction ;
+            schema1:userInteractionCount 4792 ],
+        [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:DownloadAction ;
+            schema1:userInteractionCount 1616 ] ;
+    rdfs:comment "연락처(D열), 휴무일(E열) 공란사유: 데이터 미집계, 개인정보 포함"@ko ;
+    dcat:contactPoint [ a vcard:Organization ;
+            vcard:fn "서귀포시 디지털혁신과"@ko ;
+            vcard:hasTelephone <tel:0647602283> ] ;
+    dcat:distribution <https://data.go.kr/dataset/15000484/distribution> ;
+    dcat:keyword "가격비교"@ko,
+        "가격우수업소"@ko,
+        "물가안정"@ko,
+        "서비스"@ko,
+        "소비자편의"@ko,
+        "외식업체"@ko,
+        "우수업소"@ko,
+        "착한가격"@ko ;
+    dcat:landingPage <https://www.data.go.kr/data/15000484/fileData.do> ;
+    dcat:theme <https://data.go.kr/theme/관광> .
+
+<https://data.go.kr/dataset/15000484/distribution> a dcat:Distribution ;
+    aird:accessMethod <https://data.go.kr/accessMethod/공공데이터포털에서-다운로드-원문파일등록> ;
+    aird:rowCount 90 ;
+    dct:format "csv" ;
+    dct:license <https://data.go.kr/license/kogl/type-1> ;
+    dct:title "제주특별자치도 서귀포시_착한가격업소정보_20241025"@ko ;
+    schema1:isAccessibleForFree true ;
+    dcat:mediaType "text" .
+
+<https://data.go.kr/dataset/15000543> a dcat:Dataset ;
+    aird:isNationalCoreDataset false ;
+    aird:isStandardDataset false ;
+    aird:nextUpdateDate "2027-02-05"^^xsd:date ;
+    dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+    dct:description "전라남도 해남군 소재 숙박업소 현황에 관한 데이터입니다. 이 데이터에는 업종명, 숙박업소 명칭, 업태, 숙박업소 연락처, 숙박업소 소재지, 객실 수 항목에 대한 정보를 제공합니다. 26년 2월 기준 총 78개소의 숙박업소가 있습니다. 해남읍에 28개소로 가장 많이 있으며, 두륜산 및 대흥사가 있는 삼산면은 15개소, 송호해수욕장 등이 있는 송지면 13개소, 우수영관광지가 있는 문내면 10개소 등의 순입니다. 해남군 문화관광 홈페이지에서 숙박업소 관련 사진, 서비스 제공 여부 등 다양한 정보를 얻을 수 있습니다."@ko ;
+    dct:identifier "15000543" ;
+    dct:issued "2019-07-29"^^xsd:date ;
+    dct:modified "2026-02-09"^^xsd:date ;
+    dct:publisher <https://data.go.kr/org/4930000> ;
+    dct:references "공중위생관리법"@ko ;
+    dct:title "전라남도 해남군_숙박업소"@ko ;
+    dct:type <https://data.go.kr/type/FILE> ;
+    schema1:interactionStatistic [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:ViewAction ;
+            schema1:userInteractionCount 5831 ],
+        [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:DownloadAction ;
+            schema1:userInteractionCount 975 ] ;
+    rdfs:comment "공란은 정보없음"@ko ;
+    dcat:contactPoint [ a vcard:Organization ;
+            vcard:fn "총무과"@ko ;
+            vcard:hasTelephone <tel:0615305461> ] ;
+    dcat:distribution <https://data.go.kr/dataset/15000543/distribution> ;
+    dcat:keyword "공중위생"@ko,
+        "모텔"@ko,
+        "숙박"@ko,
+        "여행"@ko,
+        "호텔"@ko ;
+    dcat:landingPage <https://www.data.go.kr/data/15000543/fileData.do> ;
+    dcat:theme <https://data.go.kr/theme/관광> .
+
+<https://data.go.kr/dataset/15000543/distribution> a dcat:Distribution ;
+    aird:accessMethod <https://data.go.kr/accessMethod/공공데이터포털에서-다운로드-원문파일등록> ;
+    aird:rowCount 78 ;
+    dct:format "csv" ;
+    dct:license <https://data.go.kr/license/kogl/type-1> ;
+    dct:title "전라남도 해남군_숙박업소_20260205"@ko ;
+    schema1:isAccessibleForFree true ;
+    dcat:mediaType "text" .
+
+<https://data.go.kr/dataset/15000545> a dcat:Dataset ;
+    aird:isNationalCoreDataset false ;
+    aird:isStandardDataset false ;
+    aird:nextUpdateDate "2026-05-08"^^xsd:date ;
+    dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+    dct:description "창원시 시민공영자전거 누비자에 대하여 현재 설치된 터미널 현황을 터미널명, 위치(~구, ~동, 위도 및 경도), 주소, 등록일자 등을 제공합니다. 누비자 터미널 데이터는 공영자전거 누비자의 주요 거점(터미널) 위치, 정류장 코드, 설치된 자전거 수용용량, 운영 시간대, 관리 주체 및 상태 정보를 종합적으로 정리한 자료입니다. 해당 자료는 거점별 이용 빈도 및 배차 효율 분석, 자전거 재배치 전략 수립, 접근성 및 수요 기반 인프라 확충, 서비스 품질 개선, 민원 대응, 스마트 모빌리티 정책 기획, 도시 교통 연계 측면에서 핵심 지표로 활용됩니다. 특히 GIS 기반 시각화와 결합하여 터미널 간 이용 흐름 분석 및 공간적 보완 전략을 마련하는 데 효과적입니다."@ko ;
+    dct:identifier "15000545" ;
+    dct:issued "2019-12-18"^^xsd:date ;
+    dct:modified "2025-07-18"^^xsd:date ;
+    dct:publisher <https://data.go.kr/org/5670000> ;
+    dct:title "경상남도 창원시_누비자 터미널"@ko ;
+    dct:type <https://data.go.kr/type/FILE> ;
+    schema1:interactionStatistic [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:ViewAction ;
+            schema1:userInteractionCount 8209 ],
+        [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:DownloadAction ;
+            schema1:userInteractionCount 1618 ] ;
+    dcat:contactPoint [ a vcard:Organization ;
+            vcard:fn "기후환경국 환경정책과"@ko ;
+            vcard:hasTelephone <tel:0552253774> ] ;
+    dcat:distribution <https://data.go.kr/dataset/15000545/distribution> ;
+    dcat:keyword "공영자전거"@ko,
+        "누비자"@ko,
+        "서비스접근성"@ko,
+        "이용패턴분석"@ko,
+        "자전거배치"@ko ;
+    dcat:landingPage <https://www.data.go.kr/data/15000545/fileData.do> ;
+    dcat:theme <https://data.go.kr/theme/도로> .
+
+<https://data.go.kr/dataset/15000545/distribution> a dcat:Distribution ;
+    aird:accessMethod <https://data.go.kr/accessMethod/공공데이터포털에서-다운로드-원문파일등록> ;
+    aird:rowCount 443 ;
+    dct:format "csv" ;
+    dct:license <https://data.go.kr/license/kogl/type-1> ;
+    dct:title "경상남도 창원시_누비자 터미널_20250508"@ko ;
+    schema1:isAccessibleForFree true ;
+    dcat:mediaType "text" .
+
+<https://data.go.kr/dataset/15000592> a dcat:Dataset ;
+    aird:isNationalCoreDataset false ;
+    aird:isStandardDataset false ;
+    aird:nextUpdateDate "2026-04-18"^^xsd:date ;
+    dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+    dct:description "충청남도 서산시에서 제공하는 본 데이터는 관내 마을회관 및 경로당 시설의 위치와 운영 현황을 정리한 자료이다. 항목은 명칭, 읍면동, 리_통, 용도, 면적, 도로명주소, 경도, 위도, 연락처, 데이터기준일로 구성되며, 주민 복지 향상과 커뮤니티 공간 운영에 활용된다. 본 데이터는 고령층 복지 지원과 지역사회 연계 공간 현황을 파악하는 데 기초자료로 사용된다. 시설의 분포, 접근성, 이용 수요 분석을 통해 행정계획과 복지정책 수립에 도움이 되며, 재난 발생 시 대응 거점으로서의 기능 파악에도 활용된다. 또한 농촌 고령화 대응, 마을 공동체 회복, 생활SOC 확충 등 정책 설계에도 유용하다. 데이터는 정기적으로 갱신되며, 시민과 행정기관에 제공되는 공공정보이다."@ko ;
+    dct:identifier "15000592" ;
+    dct:issued "2013-12-12"^^xsd:date ;
+    dct:modified "2025-06-20"^^xsd:date ;
+    dct:publisher <https://data.go.kr/org/4530000> ;
+    dct:title "충청남도 서산시_마을회관및경로당"@ko ;
+    dct:type <https://data.go.kr/type/FILE> ;
+    schema1:interactionStatistic [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:ViewAction ;
+            schema1:userInteractionCount 5738 ],
+        [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:DownloadAction ;
+            schema1:userInteractionCount 1724 ] ;
+    dcat:contactPoint [ a vcard:Organization ;
+            vcard:fn "경로장애인과"@ko ;
+            vcard:hasTelephone <tel:0416602058> ] ;
+    dcat:distribution <https://data.go.kr/dataset/15000592/distribution> ;
+    dcat:keyword "경로당"@ko,
+        "농촌정책"@ko,
+        "마을회관"@ko,
+        "커뮤니티시설"@ko,
+        "회관"@ko ;
+    dcat:landingPage <https://www.data.go.kr/data/15000592/fileData.do> ;
+    dcat:theme <https://data.go.kr/theme/노인-청소년> .
+
+<https://data.go.kr/dataset/15000592/distribution> a dcat:Distribution ;
+    aird:accessMethod <https://data.go.kr/accessMethod/공공데이터포털에서-다운로드-원문파일등록> ;
+    aird:rowCount 425 ;
+    dct:format "csv" ;
+    dct:license <https://data.go.kr/license/kogl/type-1> ;
+    dct:title "충청남도 서산시_마을회관및경로당_20250418"@ko ;
+    schema1:isAccessibleForFree true ;
+    dcat:mediaType "text" .
+
+<https://data.go.kr/dataset/15000593> a dcat:Dataset ;
+    aird:isNationalCoreDataset false ;
+    aird:isStandardDataset false ;
+    aird:nextUpdateDate "2024-06-15"^^xsd:date ;
+    dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+    dct:description "하동군 관내 의료기관 현황 (연번, 명칭, 도로명주소, 전화번호, 진료시간 등)에 대한 정보 데이터를 제공하고 있습니다."@ko ;
+    dct:identifier "15000593" ;
+    dct:issued "2018-07-23"^^xsd:date ;
+    dct:modified "2023-06-12"^^xsd:date ;
+    dct:publisher <https://data.go.kr/org/5440000> ;
+    dct:title "경상남도 하동군_의료기관안내 DB"@ko ;
+    dct:type <https://data.go.kr/type/FILE> ;
+    schema1:interactionStatistic [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:DownloadAction ;
+            schema1:userInteractionCount 848 ],
+        [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:ViewAction ;
+            schema1:userInteractionCount 3652 ] ;
+    dcat:contactPoint [ a vcard:Organization ;
+            vcard:fn "경상남도 하동군 보건소 보건정책과"@ko ;
+            vcard:hasTelephone <tel:0558806916> ] ;
+    dcat:distribution <https://data.go.kr/dataset/15000593/distribution> ;
+    dcat:keyword "병원"@ko,
+        "의원"@ko,
+        "한의원"@ko ;
+    dcat:landingPage <https://www.data.go.kr/data/15000593/fileData.do> ;
+    dcat:theme <https://data.go.kr/theme/보건의료> .
+
+<https://data.go.kr/dataset/15000593/distribution> a dcat:Distribution ;
+    aird:accessMethod <https://data.go.kr/accessMethod/공공데이터포털에서-다운로드-원문파일등록> ;
+    aird:rowCount 43 ;
+    dct:format "csv" ;
+    dct:license <https://data.go.kr/license/kogl/type-1> ;
+    dct:title "경상남도 하동군_의료기관안내 DB_20230612"@ko ;
+    schema1:isAccessibleForFree true ;
+    dcat:mediaType "text" .
+
+<https://data.go.kr/dataset/15000602> a dcat:Dataset ;
+    aird:isNationalCoreDataset false ;
+    aird:isStandardDataset false ;
+    dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dct:description "성남시의 시내버스 노선에 대한 데이터로 노선번호, 기점, 종점, 상행하행 운행시간, 배차, 운수사명의 항목을 제공합니다. ‘경기도 성남시_시내버스 노선대장 목록정보’ 데이터는 성남시에서 운행되는 시내버스의 노선 구조와 운영 현황을 체계적으로 정리한 자료입니다. 이 데이터에는 시민의 대중교통 이용에 필수적인 기본 정보가 포함되어 있습니다. 또한 노선별 정류장 위치, 운영 업체, 1일 운행 회차와 같은 세부적인 운행 정보도 제공하여 교통 흐름과 서비스 수준을 종합적으로 파악할 수 있습니다. 이러한 자료는 시내버스 노선 신설·개편, 교통 취약지역 관리, 배차 효율성 개선 등 행정적 의사결정에 중요한 근거가 되며, 시민들에게는 보다 편리하고 정확한 대중교통 이용 정보를 제공하는 데 큰 도움이 됩니다."@ko ;
+    dct:identifier "15000602" ;
+    dct:issued "2020-06-12"^^xsd:date ;
+    dct:modified "2025-11-20"^^xsd:date ;
+    dct:publisher <https://data.go.kr/org/3780000> ;
+    dct:title "경기도 성남시_시내버스 노선대장 목록정보"@ko ;
+    dct:type <https://data.go.kr/type/FILE> ;
+    schema1:interactionStatistic [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:ViewAction ;
+            schema1:userInteractionCount 4522 ],
+        [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:DownloadAction ;
+            schema1:userInteractionCount 592 ] ;
+    dcat:contactPoint [ a vcard:Organization ;
+            vcard:fn "정책기획과"@ko ;
+            vcard:hasTelephone <tel:03115773100> ] ;
+    dcat:distribution <https://data.go.kr/dataset/15000602/distribution> ;
+    dcat:keyword "기점"@ko,
+        "노선목록"@ko,
+        "노선번호"@ko,
+        "노선정보"@ko,
+        "운행현황"@ko,
+        "종점"@ko ;
+    dcat:landingPage <https://www.data.go.kr/data/15000602/fileData.do> ;
+    dcat:theme <https://data.go.kr/theme/도로> .
+
+<https://data.go.kr/dataset/15000602/distribution> a dcat:Distribution ;
+    aird:accessMethod <https://data.go.kr/accessMethod/기관자체에서-다운로드-제공데이터URL기재> ;
+    aird:rowCount 59 ;
+    dct:format "xls" ;
+    dct:license <https://data.go.kr/license/kogl/type-1> ;
+    dct:title "경기도 성남시_시내버스 노선대장 목록정보_20200805"@ko ;
+    schema1:isAccessibleForFree true ;
+    dcat:mediaType "text" .
+
+<https://data.go.kr/dataset/15000609> a dcat:Dataset ;
+    aird:isNationalCoreDataset false ;
+    aird:isStandardDataset false ;
+    aird:nextUpdateDate "2026-04-28"^^xsd:date ;
+    dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+    dct:description "경기도 연천군 공장등록현황을 개방하여 지역산업을 파악하여 제조할 수 있도록 해주는 서비스입니다.(번호, 단지명, 회사명,소재지,도로명주소, 전화번호,위경도, 팩스번호, 생산품,업종명,종업원수)"@ko ;
+    dct:identifier "15000609" ;
+    dct:issued "2016-06-23"^^xsd:date ;
+    dct:modified "2025-04-28"^^xsd:date ;
+    dct:publisher <https://data.go.kr/org/4140000> ;
+    dct:title "경기도_연천군_공장등록 현황"@ko ;
+    dct:type <https://data.go.kr/type/FILE> ;
+    schema1:interactionStatistic [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:ViewAction ;
+            schema1:userInteractionCount 6756 ],
+        [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:DownloadAction ;
+            schema1:userInteractionCount 2777 ] ;
+    dcat:contactPoint [ a vcard:Organization ;
+            vcard:fn "미디어콘텐츠과"@ko ;
+            vcard:hasTelephone <tel:0318392081> ] ;
+    dcat:distribution <https://data.go.kr/dataset/15000609/distribution> ;
+    dcat:keyword "공장"@ko,
+        "제조"@ko,
+        "지역산업"@ko ;
+    dcat:landingPage <https://www.data.go.kr/data/15000609/fileData.do> ;
+    dcat:theme <https://data.go.kr/theme/산업-중소기업일반> ;
+    dqv:hasQualityAnnotation [ a dqv:QualityAnnotation ;
+            rdfs:comment "일부 업체의 도로명주소, 전화번호, 팩스번호가 존재하지 않습니다."@ko ] .
+
+<https://data.go.kr/dataset/15000609/distribution> a dcat:Distribution ;
+    aird:accessMethod <https://data.go.kr/accessMethod/공공데이터포털에서-다운로드-원문파일등록> ;
+    aird:rowCount 223 ;
+    dct:format "csv" ;
+    dct:license <https://data.go.kr/license/kogl/type-1> ;
+    dct:title "경기도_연천군_공장등록 현황_20250428"@ko ;
+    schema1:isAccessibleForFree true ;
+    dcat:mediaType "text" .
+
+<https://data.go.kr/dataset/15000613> a dcat:Dataset ;
+    aird:isNationalCoreDataset false ;
+    aird:isStandardDataset false ;
+    aird:nextUpdateDate "2026-04-17"^^xsd:date ;
+    dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+    dct:description "이 데이터는 충청남도 서산시 관내에서 여객운송업을 운영하는 업체 정보를 정리한 공공자료이다. 항목은 업종, 업체명, 소재지, 대표자, 전화번호, 차량보유대수로 구성되며, 지역 운송서비스 현황 파악과 행정업무 지원을 목적으로 한다. 업종은 택시, 버스 등 운송 형태이며, 업체명은 등록된 상호이다. 소재지는 사업장 주소이며, 대표자는 업체의 운영 책임자이다. 전화번호는 민원 응대 및 문의용 연락처이고, 차량보유대수는 운행 가능한 차량 수를 의미한다. 이 자료는 대중교통 정책 수립, 교통자원 관리, 업체 현황 파악, 시민 정보 제공 등 다양한 분야에서 활용된다."@ko ;
+    dct:identifier "15000613" ;
+    dct:issued "2013-11-20"^^xsd:date ;
+    dct:modified "2025-06-20"^^xsd:date ;
+    dct:publisher <https://data.go.kr/org/4530000> ;
+    dct:title "충청남도 서산시_여객운수업체 정보"@ko ;
+    dct:type <https://data.go.kr/type/FILE> ;
+    schema1:interactionStatistic [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:DownloadAction ;
+            schema1:userInteractionCount 1689 ],
+        [ a schema1:InteractionCounter ;
+            schema1:interactionType schema1:ViewAction ;
+            schema1:userInteractionCount 4446 ] ;
+    dcat:contactPoint [ a vcard:Organization ;
+            vcard:fn "스마트정보과"@ko ;
+            vcard:hasTelephone <tel:0416603183> ] ;
+    dcat:distribution <https://data.go.kr/dataset/15000613/distribution> ;
+    dcat:keyword "교통행정"@ko,
+        "버스"@ko,
+        "여객"@ko,
+        "운수업"@ko,
+        "운수업체현황"@ko ;
+    dcat:landingPage <https://www.data.go.kr/data/15000613/fileData.do> ;
+    dcat:theme <https://data.go.kr/theme/도로> .
+
+<https://data.go.kr/dataset/15000613/distribution> a dcat:Distribution ;
+    aird:accessMethod <https://data.go.kr/accessMethod/공공데이터포털에서-다운로드-원문파일등록> ;
+    aird:rowCount 15 ;
+    dct:format "csv" ;
+    dct:license <https://data.go.kr/license/kogl/type-1> ;
+    dct:title "충청남도 서산시_여객운수업체 정보_20250417"@ko ;
+    schema1:isAccessibleForFree true ;
+    dcat:mediaType "text" .
+
+<https://data.go.kr/org/1170000> a foaf:Organization ;
+    dct:identifier "1170000" ;
+    foaf:name "법제처"@ko .
+
+<https://data.go.kr/org/4140000> a foaf:Organization ;
+    dct:identifier "4140000" ;
+    foaf:name "경기도 연천군"@ko .
+
+<https://data.go.kr/org/4930000> a foaf:Organization ;
+    dct:identifier "4930000" ;
+    foaf:name "전라남도 해남군"@ko .
+
+<https://data.go.kr/org/5440000> a foaf:Organization ;
+    dct:identifier "5440000" ;
+    foaf:name "경상남도 하동군"@ko .
+
+<https://data.go.kr/org/5670000> a foaf:Organization ;
+    dct:identifier "5670000" ;
+    foaf:name "경상남도 창원시"@ko .
+
+<https://data.go.kr/org/6520000> a foaf:Organization ;
+    dct:identifier "6520000" ;
+    foaf:name "제주특별자치도 서귀포시"@ko .
+
+<https://data.go.kr/theme/공공행정> a skos:Concept ;
+    skos:inScheme <https://data.go.kr/theme> ;
+    skos:prefLabel "공공행정"@ko ;
+    skos:topConceptOf <https://data.go.kr/theme> .
+
+<https://data.go.kr/theme/교통물류> a skos:Concept ;
+    skos:inScheme <https://data.go.kr/theme> ;
+    skos:prefLabel "교통물류"@ko ;
+    skos:topConceptOf <https://data.go.kr/theme> .
+
+<https://data.go.kr/theme/노인-청소년> a skos:Concept ;
+    skos:broader <https://data.go.kr/theme/사회복지> ;
+    skos:inScheme <https://data.go.kr/theme> ;
+    skos:prefLabel "노인·청소년"@ko .
+
+<https://data.go.kr/theme/문화관광> a skos:Concept ;
+    skos:inScheme <https://data.go.kr/theme> ;
+    skos:prefLabel "문화관광"@ko ;
+    skos:topConceptOf <https://data.go.kr/theme> .
+
+<https://data.go.kr/theme/법제> a skos:Concept ;
+    skos:broader <https://data.go.kr/theme/공공행정> ;
+    skos:inScheme <https://data.go.kr/theme> ;
+    skos:prefLabel "법제"@ko .
+
+<https://data.go.kr/theme/사회복지> a skos:Concept ;
+    skos:inScheme <https://data.go.kr/theme> ;
+    skos:prefLabel "사회복지"@ko ;
+    skos:topConceptOf <https://data.go.kr/theme> .
+
+<https://data.go.kr/theme/산업-중소기업일반> a skos:Concept ;
+    skos:broader <https://data.go.kr/theme/산업고용> ;
+    skos:inScheme <https://data.go.kr/theme> ;
+    skos:prefLabel "산업·중소기업일반"@ko .
+
+<https://data.go.kr/theme/산업고용> a skos:Concept ;
+    skos:inScheme <https://data.go.kr/theme> ;
+    skos:prefLabel "산업고용"@ko ;
+    skos:topConceptOf <https://data.go.kr/theme> .
+
+<https://data.go.kr/type> a skos:ConceptScheme ;
+    dct:title "공공데이터 목록유형"@ko .
+
+<https://data.go.kr/accessMethod/기관자체에서-다운로드-제공데이터URL기재> a skos:Concept ;
+    skos:prefLabel "기관자체에서 다운로드(제공데이터URL기재)"@ko .
+
+<https://data.go.kr/org/3780000> a foaf:Organization ;
+    dct:identifier "3780000" ;
+    foaf:name "경기도 성남시"@ko .
+
+<https://data.go.kr/org/4530000> a foaf:Organization ;
+    dct:identifier "4530000" ;
+    foaf:name "충청남도 서산시"@ko .
+
+<https://data.go.kr/theme/관광> a skos:Concept ;
+    skos:broader <https://data.go.kr/theme/문화관광> ;
+    skos:inScheme <https://data.go.kr/theme> ;
+    skos:prefLabel "관광"@ko .
+
+<https://data.go.kr/theme/도로> a skos:Concept ;
+    skos:broader <https://data.go.kr/theme/교통물류> ;
+    skos:inScheme <https://data.go.kr/theme> ;
+    skos:prefLabel "도로"@ko .
+
+<https://data.go.kr/theme/보건의료> a skos:Concept ;
+    skos:broader <https://data.go.kr/theme/보건의료> ;
+    skos:inScheme <https://data.go.kr/theme> ;
+    skos:prefLabel "보건의료"@ko .
+
+<https://data.go.kr/accessMethod/공공데이터포털에서-다운로드-원문파일등록> a skos:Concept ;
+    skos:prefLabel "공공데이터포털에서 다운로드(원문파일등록)"@ko .
+
+<https://data.go.kr/type/FILE> a skos:Concept ;
+    skos:inScheme <https://data.go.kr/type> ;
+    skos:prefLabel "FILE"@ko .
+
+<https://data.go.kr/theme> a skos:ConceptScheme ;
+    dct:title "공공데이터 분류체계"@ko .
+
