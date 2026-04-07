@@ -1,0 +1,49 @@
+name: 도구 / 기능 제안
+description: 새로운 도구 또는 기존 도구의 기능 개선을 제안해주세요.
+title: "[Request] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: 제안 유형
+      options:
+        - 새 도구 제안
+        - 기존 도구 기능 개선
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 해결하려는 문제
+      description: 어떤 상황에서 어떤 불편함이 있었는지 설명해주세요.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 제안하는 해결 방식
+    validations:
+      required: true
+
+  - type: dropdown
+    id: related_part
+    attributes:
+      label: 관련 표준 파트 (해당 시)
+      options:
+        - Part-1 (품질 진단 프레임워크)
+        - Part-2 (메타데이터 프로파일)
+        - Part-3 (변환 및 거버넌스)
+        - 해당 없음
+
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: 직접 기여 의향
+      options:
+        - 직접 구현하고 싶습니다
+        - 아이디어 제안만 합니다
+    validations:
+      required: true

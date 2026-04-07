@@ -81,3 +81,6 @@ aird-tools/
 표준 개발과 구현 모두에 대한 의견을 환영합니다.
 
 현재는 먼저 배포된 `catalog-converter`와 관련된 이슈(매핑 오류, 누락 필드, 개선 제안)를 우선 수렴하고 있습니다. 표준 초안이 공개되면 각 파트별 GitHub Discussions를 통해 상세 의견을 수렴할 예정입니다.
+
+자세한 내용은 [기여 가이드](.github/CONTRIBUTING.md)를 참고해주세요. 
+

@@ -1,0 +1,58 @@
+name: 버그 리포트
+description: 도구 사용 중 발생한 버그를 제보해주세요.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: tool
+    attributes:
+      label: 발생 도구
+      description: 버그가 발생한 도구를 선택해주세요.
+      options:
+        - catalog-converter
+        - 기타
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 재현 방법
+      description: 버그를 재현할 수 있는 단계를 작성해주세요.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 예상 결과
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 실제 결과
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 실행 환경
+      placeholder: |
+        - OS:
+        - Python 버전:
+        - rdflib 버전:
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 오류 로그 또는 관련 출력
+      render: shell

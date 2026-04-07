@@ -1,0 +1,13 @@
+title: "[논의 제목을 입력해주세요]"
+body:
+  - type: textarea
+    attributes:
+      label: 내용
+      description: 논의하고 싶은 내용을 자유롭게 작성해주세요.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 참고 자료 (선택)
+      description: 관련 링크, 문서, 이슈 번호 등이 있다면 첨부해주세요.

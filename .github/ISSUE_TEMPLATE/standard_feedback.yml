@@ -1,0 +1,58 @@
+name: 표준 피드백
+description: AIRD 표준 스펙(Part 1/2/3)에 대한 의견을 남겨주세요.
+title: "[Spec] "
+labels: ["specification"]
+body:
+  - type: callout
+    attributes:
+      body: >
+        표준 초안(spec/)은 현재 비공개 상태로, 공식 공개 이후 본격적인 피드백을 받을 예정입니다.
+        공개 전이라도 방향성이나 범위에 대한 의견은 언제든 환영합니다.
+
+  - type: dropdown
+    id: part
+    attributes:
+      label: 관련 파트
+      options:
+        - Part-1 (품질 진단 프레임워크)
+        - Part-2 (메타데이터 프로파일)
+        - Part-3 (변환 및 거버넌스)
+        - 공통 / 전체
+    validations:
+      required: true
+
+  - type: dropdown
+    id: feedback_type
+    attributes:
+      label: 피드백 유형
+      options:
+        - 오류 지적
+        - 내용 보완 제안
+        - 사례 추가 요청
+        - 기타 의견
+    validations:
+      required: true
+
+  - type: textarea
+    id: section
+    attributes:
+      label: 해당 섹션 또는 항목
+      placeholder: 예) Part-2 § 3.2, 메타데이터 요소 목록
+
+  - type: textarea
+    id: current
+    attributes:
+      label: 현재 내용 (해당 시 인용)
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 제안 내용
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: 근거 또는 참고 표준
+      placeholder: 예) DCAT-AP 3.0, ISO 25012, 공공데이터법 시행령
