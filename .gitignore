@@ -2,7 +2,7 @@
 **/data/
 
 # Standard drafts (not public yet) — keep folder structure only
-spec/**
+# spec/**
 !spec/
 !spec/*/
 !spec/**/.gitkeep
