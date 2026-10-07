@@ -1,0 +1,25 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.000
+Demo run · What is the original coordinate system (Q11)? Synthetic data · single run. Not an experiment result.
+
+2
+00:00:04.000 --> 00:00:09.000
+Left: data file only. Right: with the manifest. The data file alone cannot answer from its material, so holding is correct.
+
+3
+00:00:09.000 --> 00:00:20.000
+The file-only agent runs code to check coordinate ranges and any CRS label. The manifest agent runs no code and reads EPSG:5186 from the column description (10 s).
+
+4
+00:00:20.000 --> 00:00:34.000
+The file-only agent confirms no coordinate system is recorded anywhere and holds: an appropriate hold (22 s, 2 code runs).
+
+5
+00:00:34.000 --> 00:00:42.000
+Result: data file only, appropriate hold; manifest, grounded correct answer. A second run gave the same result.
+
+6
+00:00:42.000 --> 00:00:48.500
+This demo is not an experiment result. The preregistered procedure and results are published on the site's "Effect test" page.

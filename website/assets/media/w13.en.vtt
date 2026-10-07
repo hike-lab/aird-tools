@@ -1,0 +1,21 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.000
+Demo run · May the data, coordinates included, be used in a paid map service (Q13)? Synthetic data · single run.
+
+2
+00:00:04.000 --> 00:00:09.000
+Left: the portal page. Right: the manifest. The portal page cannot tell the scope of third-party rights, so holding is correct.
+
+3
+00:00:09.000 --> 00:00:34.000
+The portal-page agent finds that the page's license and Schema.org's "includes third-party rights" disagree, and holds. The manifest agent reads the rights clause — third-party rights on the coordinates — and separates what may be used.
+
+4
+00:00:34.000 --> 00:00:42.000
+Result: portal page, appropriate hold; manifest, grounded correct answer.
+
+5
+00:00:42.000 --> 00:00:48.500
+This demo is not an experiment result. The preregistered procedure and results are published on the site's "Effect test" page.

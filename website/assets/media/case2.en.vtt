@@ -1,0 +1,25 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.500
+Case 2 · Real data: the same fact counted more than once. Foreign direct investment statistics, SDMX cube, accessed over MCP.
+
+2
+00:00:04.500 --> 00:00:09.000
+Question: what was the notified US foreign direct investment in Korea in 2020?
+
+3
+00:00:09.000 --> 00:00:27.000
+Summed without the standard, 35 rows are added: duplicate reports across source files, detail and total rows counted together, and rows with status Z or M. 21,208,000 thousand USD, with no error.
+
+4
+00:00:27.500 --> 00:00:44.000
+With the manifest's conditions — deduplicate source files, industry = ALL, investment type = ALL, status A or C — 2 rows remain: 5,302,000 thousand USD.
+
+5
+00:00:44.500 --> 00:00:56.000
+The unconstrained sum is 4.0 times the correct value. The needed conditions are not in the data; they are recorded in the manifest. The "without" query is a representative query, not one written by an LLM.
+
+6
+00:00:56.500 --> 00:01:04.000
+A wrong total raises no error. The conditions that separate duplicates, totals and observation status must be recorded with the data in machine-readable form.

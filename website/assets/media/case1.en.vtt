@@ -1,0 +1,37 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.500
+Case 1 · Same name, different meaning. Is "export value" the same in both datasets?
+
+2
+00:00:05.000 --> 00:00:13.500
+Both datasets have an "export value" column. Their current metadata records no unit, currency or frequency.
+
+3
+00:00:14.000 --> 00:00:20.000
+Question: compare the 2025 semiconductor export value in the two datasets.
+
+4
+00:00:20.500 --> 00:00:26.000
+Because the column names match, the agent treats them as the same and compares 11,800 with 190,000 as they are.
+
+5
+00:00:27.000 --> 00:00:38.000
+Without a manifest: "Dataset B is about 16 times dataset A." A confident wrong answer, and no error message.
+
+6
+00:00:39.000 --> 00:00:52.000
+With a manifest: sum monthly to annual (144,000 thousand USD), convert the currency (194,400 million KRW), then compare in the same unit.
+
+7
+00:00:52.000 --> 00:01:02.000
+The two figures agree within about 2%. The rate of 1,350 KRW/USD is an assumption; figures are illustrative.
+
+8
+00:01:03.000 --> 00:01:16.000
+Machine-readable vocabulary: unit/currency, multiplier, frequency — reusing SDMX concepts and code lists rather than inventing new ones. This is a proposed revision.
+
+9
+00:01:16.500 --> 00:01:24.000
+The same name does not guarantee the same meaning. Meaning must be recorded with the data in machine-readable vocabulary.

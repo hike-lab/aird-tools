@@ -1,0 +1,9 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.800
+With only the data file, the agent guesses units, reference date and terms of use.
+
+2
+00:00:05.200 --> 00:00:12.000
+With a manifest alongside, the agent bases its decision on what the manifest records.
